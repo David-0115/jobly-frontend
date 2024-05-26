@@ -1,0 +1,53 @@
+.Navbar,
+.Navbar-down {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    position: absolute;
+    font-size: small;
+}
+
+.Navbar {
+    top: 0px;
+}
+
+.Navbar-down {
+    top: 3em;
+}
+
+.Navbar-logo {
+    display: inline-block;
+    color: white;
+    margin-left: 1em;
+}
+
+.Navbar-link-container {
+    align-self: center;
+    margin-right: 1em;
+}
+
+.Navbar-link {
+    margin-left: 2em;
+}
+
+.Navbar-link-active {
+    color: orange;
+    margin-left: 2em;
+    text-decoration: 3px underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: gray;
+}

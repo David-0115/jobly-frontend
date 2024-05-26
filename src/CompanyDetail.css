@@ -1,0 +1,24 @@
+.CompanyDetail {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CompanyDetail-header {
+    text-shadow: 1px 1px 0px white, 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+}
+
+.CompanyDetail-description {
+    position: relative;
+    top: 1em;
+
+}
+
+.CompanyDetail-header2 {
+    position: relative;
+    top: 2.5em;
+
+}

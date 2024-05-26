@@ -1,0 +1,72 @@
+.fa-solid {
+    color: blue;
+    font-size: 3em;
+    text-shadow: 1px 1px 0px white, 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.fa-solid:hover {
+    color: white;
+    text-shadow: 1px 1px 0px blue, 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Carousel-next {
+    width: 2em;
+    position: relative;
+    left: 46em;
+    bottom: 14em
+}
+
+.Carousel-previous {
+    width: 2em;
+    position: relative;
+    right: 2em;
+    bottom: 14em;
+}
+
+
+
+.Carousel {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 48em;
+    height: 25em;
+
+}
+
+.Carousel-items {
+    padding-top: 10px;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    column-count: 2;
+    column-gap: 1em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.Carousel-items .Job-container:first-child,
+.Company-container:first-child {
+    margin-top: 0;
+}
+
+.Carousel-pagecount {
+    color: white;
+    font-size: small;
+
+}
+
+.Carousel-pagecount {
+    position: relative;
+    bottom: .5em;
+}
+
+.Carousel-buttons {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+}

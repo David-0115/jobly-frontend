@@ -1,0 +1,32 @@
+.Alert-success,
+.Alert-error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    min-height: 2em;
+    max-height: fit-content;
+    position: absolute;
+    top: 0px;
+
+}
+
+.Alert-success {
+    background-color: rgba(0, 255, 0, 0.50);
+    color: white;
+}
+
+.Alert-error {
+    background-color: rgba(255, 0, 0, 0.50);
+}
+
+.Alert-message {
+    width: 95%;
+
+}
+
+.fa-xmark {
+
+    color: black;
+    font-size: small;
+}

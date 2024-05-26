@@ -1,0 +1,59 @@
+.Company-container {
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 22em;
+    height: 11em;
+    margin: 8px;
+    break-inside: avoid;
+    box-sizing: border-box;
+}
+
+.Company-title {
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.Company-employees {
+    display: block;
+    margin-bottom: 3px;
+    font-size: small;
+}
+
+.Company-handle {
+    margin-bottom: 3px;
+    font-size: small;
+}
+
+.Company-description {
+    margin-right: 3px;
+    margin-top: 3px;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+<div className="Company-container">
+<h4 className="Company-title">{company.name}</h4>
+<div>
+    <span className="Company-employees">Employees: {company.numEmployees}</span>
+    <span className="Company-handle">Handle: {company.handle}</span>
+</div>
+<div>
+    <span className="Company-description">Description:</span>
+    <span className="Company-description">{company.description}</span>
+</div>
+
+</div> */

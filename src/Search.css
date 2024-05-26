@@ -1,0 +1,96 @@
+.Search {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.SearchForm {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.SearchHeader {
+    text-shadow: 1px 1px 0px white, 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10px;
+}
+
+#title {
+    width: 40em;
+    text-align: center;
+    border-radius: 5px;
+    padding: .35em;
+
+}
+
+#searchText:focus {
+    border: 2px solid blue;
+}
+
+.Search-searchInput {
+    width: 80%;
+    margin: 10px 0;
+
+}
+
+
+.SearchHeaderForm-jobsbtn,
+.SearchHeaderForm-cobtn {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.SearchHeaderForm-jobsbtn {
+    position: relative;
+    left: 14.5em;
+    bottom: 1.75em;
+}
+
+.SearchHeaderForm-cobtn {
+    position: relative;
+    left: 22em;
+    bottom: 1.75em;
+}
+
+.SearchHeaderForm-jobsbtn:hover,
+.SearchHeaderForm-cobtn:hover {
+    background-color: rgb(3, 253, 3);
+}
+
+.SearchForm-label {
+    font-size: small;
+    margin-left: 2em;
+    margin-right: 1em;
+    text-shadow: .5px .5px 0px white, 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.Search-filters {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#hasEquity,
+.hasEquity,
+.minSalary,
+#minSalary {
+    position: relative;
+    left: 6.6em;
+}
+
+#minSalary {
+    border-radius: 5px;
+    padding: .25em;
+}

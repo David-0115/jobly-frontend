@@ -1,0 +1,26 @@
+.Job-container {
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 22em;
+    height: 7em;
+    margin: 8px;
+    break-inside: avoid;
+}
+
+.Job-title {
+    text-align: center;
+    margin: 0;
+    padding: 3px;
+}
+
+.Job-label {
+    margin-left: 15px;
+    margin-right: 10px;
+    font-size: small;
+}
+
+.Job-info {
+    margin-right: 15px;
+    font-size: small;
+}

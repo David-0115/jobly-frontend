@@ -1,0 +1,106 @@
+.JobDetail {
+    background-color: rgba(0, 0, 0, 0.45);
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 40em;
+    height: 25em;
+    margin: 8px;
+    break-inside: avoid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.JobDetail-title {
+    margin-top: 0em;
+    text-align: center;
+    color: white;
+}
+
+.JobDetail-finData {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.JobDetail-company-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+    color: white;
+}
+
+.JD-co {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finData-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.JD-rem,
+.JD-login {
+    margin-top: 1em;
+}
+
+.JobDetail-desc {
+    margin-left: 2em;
+    font-weight: bold;
+}
+
+.JobDetail-data-description {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0em;
+}
+
+.JobDetail-data-handle,
+.JD-login {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.JobDetail-buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.JD-login a {
+    text-decoration: underline;
+}
+
+.JobDetail-btn {
+    margin: 1em;
+}
+
+.JD-back {
+    background-color: red;
+}
+
+.JD-back:hover {
+    background-color: salmon;
+}
+
+.inactive,
+.inactive:hover {
+    background-color: gray;
+    color: darkgray;
+}
+
+.JD-job-applied {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.JobDetail-applied-notification {
+    color: white
+}
