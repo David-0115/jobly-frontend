@@ -14,10 +14,13 @@ const CompanyList = () => {
     const [apiUrl, setApiUrl] = useState(null)
     const [companyList, setCompanyList] = useState([])
     const [isLoading, setIsLoading] = useState(true);
+    const location = useLocation();
+    const path = location.pathname.substring(1).split('/');
+
 
     useEffect(() => {
         updateFilters(null)
-    }, [])
+    }, [path[0]])
 
     useEffect(() => {
         try {

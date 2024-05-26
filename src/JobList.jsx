@@ -19,7 +19,7 @@ const JobList = () => {
 
     useEffect(() => {
         updateFilters(null)
-    }, [])
+    }, [path[0]])
 
     useEffect(() => {
         if (jobs) {   //jobs are loaded from either user or company
@@ -75,6 +75,7 @@ const JobList = () => {
 
                 </div>
                 <Carousel components={jobList} />
+
             </div>
         )
     } else {

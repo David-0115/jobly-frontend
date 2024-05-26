@@ -36,26 +36,28 @@ const Carousel = ({ components }) => {
 
     return (
         <div className="Carousel">
-            <div className="Carousel-items">
-                {items[activeIndex]}
-                <p className="Carousel-pagecount">Page {activeIndex + 1} of {items.length}</p>
-            </div>
-            <div className="Carousel-buttons">
-
-                <div className="Carousel-previous">
-                    {activeIndex === 0 ? "" :
-                        <i className="fa-solid fa-angle-left" onClick={handlePrevious}></i>
-                    }
+            {components.length > 0 ? <>
+                <div className="Carousel-items">
+                    {items[activeIndex]}
+                    <p className="Carousel-pagecount">Page {activeIndex + 1} of {items.length}</p>
                 </div>
+                <div className="Carousel-buttons">
 
-                <div className="Carousel-next">
-                    {activeIndex === items.length - 1 ? "" :
-                        <i className="fa-solid fa-angle-right" onClick={handleNext}></i>
-                    }
+                    <div className="Carousel-previous">
+                        {activeIndex === 0 ? "" :
+                            <i className="fa-solid fa-angle-left" onClick={handlePrevious}></i>
+                        }
+                    </div>
+
+                    <div className="Carousel-next">
+                        {activeIndex === items.length - 1 ? "" :
+                            <i className="fa-solid fa-angle-right" onClick={handleNext}></i>
+                        }
+                    </div>
+
                 </div>
-
-            </div>
-
+            </>
+                : <>"No items found"</>}
 
         </div>
     )
