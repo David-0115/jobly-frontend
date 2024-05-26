@@ -8,7 +8,7 @@ body {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  background-image: url('src/assets/jobly-background.jpg');
+  background-image: url('/jobly-background.jpg');
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
